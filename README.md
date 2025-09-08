@@ -1,7 +1,7 @@
 # 🗳️ Voting App – Microservices with DevOps Pipeline
 
 This project implements a **Voting Application** using a **microservices architecture** deployed on **AWS EKS**.  
-The solution is fully automated using **Terraform**, **CI/CD pipelines (GitHub Actions + Argo CD)**, and monitored with **Prometheus and Grafana**.
+The solution is fully automated using **Terraform**, **CI/CD pipelines (GitHub Actions + Argo CD)**.
 
 ---
 
