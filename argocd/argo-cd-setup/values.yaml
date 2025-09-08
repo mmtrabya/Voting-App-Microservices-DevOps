@@ -1,0 +1,22 @@
+---
+global:
+  image:
+    repository: quay.io/argoproj/argocd
+    tag: "v3.1.1"
+
+dex:
+  enabled: false
+
+server:
+  service:
+    type: LoadBalancer
+    ports:
+      - name: https
+        port: 443
+        targetPort: 8080
+      - name: http
+        port: 80
+        targetPort: 8080
+
+  extraArgs:
+    - --insecure
